@@ -1,12 +1,19 @@
 import React from 'react';
 import PhoneBook from './PhoneBook';
+import Nav from './Nav';
+import styled from '@emotion/styled';
 
 function App() {
     return (
-        <div>
+        <AppStyles>
+            <Nav />
             <PhoneBook />
-        </div>
+        </AppStyles>
     );
 }
 
 export default App;
+
+const AppStyles = styled.div`
+    margin: auto;
+`;
