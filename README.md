@@ -2,4 +2,4 @@ For fun
 
 install packages: \$ npm install
 
-start App: \$ npm run start
+start App: \$ npm start
